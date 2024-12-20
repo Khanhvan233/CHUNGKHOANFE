@@ -1,0 +1,46 @@
+.input-custom {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    transition: border-color 0.3s ease;
+}
+
+.input-custom:focus {
+    border-color: #007bff; /* Thay đổi màu viền khi focus */
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.2); /* Tạo hiệu ứng khi focus */
+}
+
+
+.custom-button {
+    background-color: #1877f2;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    font-size: 19px; 
+    height: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  
+    /* Định dạng khi rê chuột vào button */
+    &:hover {
+      background-color: #166fe5;
+    }
+  
+    /* Định dạng khi button được nhấn */
+    &:active {
+      transform: scale(0.99);
+      transform-origin: center;
+    }
+  }
+
+
+  

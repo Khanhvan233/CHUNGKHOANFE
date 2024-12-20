@@ -1,0 +1,70 @@
+.sell-order-form {
+    width: 1000px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sell-order-form h2 {
+    color: red;
+    text-align: center;
+  }
+  
+  .trading-time {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .total-sell-price{
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  select, input[type="text"], input[type="number"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .order-types label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .form-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  .notification {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  

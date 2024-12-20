@@ -1,0 +1,24 @@
+.home{
+    display: flex;
+}
+.home .homeContainer{
+     flex: 2;
+}
+.homeContainer .listContainer{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,047);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0,47);
+    padding: 20px;
+    margin: 20px;
+    max-height: 50px;  
+}
+
+.listContainer .listTitle{
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.inline-container {
+    display: flex;
+    align-items: center; /* Vertically align content */
+  }

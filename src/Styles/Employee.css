@@ -1,0 +1,62 @@
+
+
+.title1 {
+    font-size: 24px;           
+    font-weight: bold;         
+    color: #333333;            
+    text-align: center;        
+    margin: 20px 0;           
+    padding: 10px;             
+    background-color: rgb(216, 196, 182); 
+    border-radius: 5px;        
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.grid-container12 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 16px; 
+    padding: 16px;
+}
+
+.grid-container11 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 16px; 
+    padding: 16px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(62, 88, 121);
+}
+
+.input{
+    width: 50%; 
+    height: 30px; 
+    font-size: 12px; 
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.input {
+    width: 50%; 
+    height: 30px; 
+    font-size: 12px; 
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(62, 88, 121); /* Màu nền mặc định */
+    color: white; /* Màu chữ */
+    border: none; /* Loại bỏ viền */
+    border-radius: 5px; /* Bo góc nút */
+    cursor: pointer; /* Con trỏ pointer khi hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Hiệu ứng mượt */
+}
+
+.input:hover {
+    background-color: rgb(84, 120, 160); /* Màu sáng hơn khi hover */
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+}

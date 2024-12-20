@@ -1,0 +1,1 @@
+# Lỗi không nhận dấu và tự động chuyển thành ? 
